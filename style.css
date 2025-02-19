@@ -118,7 +118,6 @@ body{
     font-weight: 700;
 }
 
-
 #read{
     width: 150px;
     height: 50px;
@@ -276,13 +275,15 @@ color: var(--green--);
     text-align: center; 
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: var(--padding--);
 }
 
 .men-img{
     height: 300px;
     width: 300px;
     border-radius: 40px;
-    margin: 0 auto
+    margin: 0 auto;   
 }
 .men-img img{
     height: 400px;
@@ -291,6 +292,8 @@ color: var(--green--);
     border-radius: 40px;
 }
 .name{
+    text-align: center;
+   
     color: var(--white--text--color--);
 }
 
@@ -325,7 +328,7 @@ color: var(--green--);
 }
 .sec8-rest{
     position: absolute;
-    bottom: 0;
+    bottom: 12%;
     left: 15%;
 }
 .inputs{
